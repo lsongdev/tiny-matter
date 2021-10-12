@@ -40,3 +40,13 @@ test("matter#delimiters", () => {
   assert.strictEqual(x.data.title, "Front Matter");
   assert.strictEqual(x.content, "This is content.");
 });
+
+test("matter#crlf", () => {
+  const x = matter('---\r\ntitle: Front Matter\r\n---\r\nThis is content.')
+  assert.ok(x);
+  assert.strictEqual(typeof x, 'object');
+  assert.strictEqual(typeof x.data, 'object');
+  assert.strictEqual(typeof x.content, 'string');
+  assert.strictEqual(x.data.title, "Front Matter");
+  assert.strictEqual(x.content, "This is content.");
+});

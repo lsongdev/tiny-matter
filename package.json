@@ -1,6 +1,6 @@
 {
   "name": "tiny-matter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Super Tiny Front Matter Parser",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/song940/front-matter.git"
+    "url": "git+https://github.com/song940/tiny-matter.git"
   },
   "keywords": [
     "matter",
@@ -21,9 +21,9 @@
   "author": "Lsong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/song940/front-matter/issues"
+    "url": "https://github.com/song940/tiny-matter/issues"
   },
-  "homepage": "https://github.com/song940/front-matter#readme",
+  "homepage": "https://github.com/song940/tiny-matter#readme",
   "dependencies": {
     "js-yaml": "*"
   }
