@@ -1,4 +1,4 @@
-## front-matter
+## tiny-matter
 
 > super tiny front matter parser just ~20 lines with no dependencies.
 
