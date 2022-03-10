@@ -1,6 +1,6 @@
 {
   "name": "tiny-matter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Super Tiny Front Matter Parser",
   "main": "index.js",
   "scripts": {
