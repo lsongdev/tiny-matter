@@ -4,6 +4,8 @@
   "description": "Super Tiny Front Matter Parser",
   "main": "index.js",
   "scripts": {
+    "format:check": "prettier --check \"**/*.{js,md,yml}\"",
+    "format": "prettier --write \"**/*.{js,md,yml}\"",
     "test": "node test"
   },
   "repository": {
@@ -24,6 +26,9 @@
     "url": "https://github.com/song940/tiny-matter/issues"
   },
   "homepage": "https://github.com/song940/tiny-matter#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
   "dependencies": {
     "js-yaml": "*"
   }
