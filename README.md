@@ -19,9 +19,9 @@ Into an object like this:
 ```js
 {
   content: '<h1>Hello world!</h1>',
-  data: { 
-    title: 'Hello', 
-    slug: 'home' 
+  data: {
+    title: 'Hello',
+    slug: 'home'
   }
 }
 ```
@@ -35,11 +35,9 @@ Into an object like this:
 ### Example
 
 ```js
-const matter = require('tiny-matter');
+const matter = require('tiny-matter')
 
-console.log(
-  matter('---\ntitle: Front Matter\n---\nThis is content.')
-);
+console.log(matter('---\ntitle: Front Matter\n---\nThis is content.'))
 ```
 
 ### License
