@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "Super Tiny Front Matter Parser",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "format:check": "prettier --check \"**/*.{js,md,yml}\"",
-    "format": "prettier --write \"**/*.{js,md,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,md,yml}\"",
+    "format": "prettier --write \"**/*.{js,ts,md,yml}\"",
     "test": "node test"
   },
   "repository": {
@@ -21,6 +22,9 @@
     "frontmatter"
   ],
   "author": "Lsong",
+  "contributors": [
+    "jrson83"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/song940/tiny-matter/issues"

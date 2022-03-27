@@ -1,10 +1,10 @@
 const YAML = require('js-yaml')
 
 /**
- * matter
- * @param {*} str
- * @param {*} options
- * @returns
+ * Converts a string with front-matter
+ * @param {String} str - String with front-matter
+ * @param {Object} options - Object with Options
+ * @returns {Object}
  */
 const matter = (str = '', options) => {
   const { delimiters, parser: parse } = Object.assign(
