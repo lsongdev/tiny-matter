@@ -3,8 +3,8 @@
   "arrowParens": "avoid",
   "endOfLine": "auto",
   "printWidth": 120,
-  "semi": false,
+  "semi": true,
   "singleQuote": true,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "bracketSameLine": true
 }
