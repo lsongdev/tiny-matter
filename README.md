@@ -29,7 +29,7 @@ Into an object like this:
 ### Install
 
 ```sh
-~$ npm i tiny-matter --save
+npm i tiny-matter --save
 ```
 
 ### Example
